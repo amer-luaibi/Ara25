@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Raw or restricted data
+data/raw/
+data/private/
+*.jason
+*.jsonl
+!data/sample/synthetic_sample.jsonl
+
+# Model and experiment artifacts
+checkpoints/
+runs/
+wandb/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
