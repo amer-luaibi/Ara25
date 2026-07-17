@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ara25"
+version = "0.1.0"
+description = "Audit and data utilities for the Ara25 Arabic multi-document summarization benchmark"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Amer A. Al-Dulame"}]
+license = {file = "LICENSE"}
+keywords = ["arabic", "nlp", "summarization", "multi-document", "long-context"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

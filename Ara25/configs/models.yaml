@@ -1,0 +1,24 @@
+seed: 42
+max_input_tokens: 6144
+max_output_tokens: 512
+num_beams: 4
+no_repeat_ngram_size: 3
+
+models:
+  mt5:
+    checkpoint: csebuetnlp/mT5_multilingual_XLSum
+    task: seq2seq
+  led:
+    checkpoint: allenai/led-base-16384
+    task: long-context-seq2seq
+  arat5:
+    checkpoint: UBC-NLP/AraT5-base
+    task: seq2seq
+  arabert:
+    encoder: aubmindlab/bert-base-arabertv02
+    decoder: aubmindlab/bert-base-arabertv02
+    task: encoder-decoder
+  mbert:
+    encoder: bert-base-multilingual-cased
+    decoder: bert-base-multilingual-cased
+    task: encoder-decoder
