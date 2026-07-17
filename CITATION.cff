@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use Ara25, please cite this software artifact and the associated paper when available."
+title: "Ara25: Arabic Long-Context Multi-Document Abstractive Summarization Dataset and Benchmark"
+type: software
+authors:
+  - family-names: "Al-Dulame"
+    given-names: "Amer A."
+version: 0.1.0
+date-released: 2026-07-15
+license: LicenseRef-Proprietary
+abstract: >-
+  Ara25 is a research dataset and benchmark for Arabic long-context,
+  multi-document abstractive summarization, with a dual-reference evaluation
+  subset and five baseline model families.
+keywords:
+  - Arabic NLP
+  - multi-document summarization
+  - long-context summarization
+  - abstractive summarization
+  - benchmark

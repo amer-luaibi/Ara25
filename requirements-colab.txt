@@ -1,0 +1,16 @@
+torch>=2.2
+transformers>=4.44,<5
+datasets>=2.20,<5
+accelerate>=0.33
+evaluate==0.4.2
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+sentencepiece>=0.2
+rouge-score==0.1.2
+sacrebleu>=2.4
+bert-score>=0.3.13
+nltk>=3.8
+tqdm>=4.66
+POT>=0.9.3
+openpyxl>=3.1
