@@ -1,3 +1,0 @@
-# Lightweight repository tooling uses only the Python standard library.
-# Install the experiment stack with requirements-colab.txt.
--e .
